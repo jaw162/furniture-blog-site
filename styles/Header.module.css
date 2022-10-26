@@ -1,0 +1,35 @@
+.header_container {
+    padding: 2.4rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 2.8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menubox {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+}
+
+.menubox p {
+    flex: 3;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.toolbar {
+    flex: 1;
+}
+
+.toolbar > span {
+    display: flex;
+    padding: 1px;
+    margin: 2px 0;
+    background-color: white;
+}

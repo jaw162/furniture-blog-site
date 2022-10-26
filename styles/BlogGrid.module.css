@@ -1,0 +1,59 @@
+/* Needed hard-coded reference to blogs section */
+/* Without it 'Blogs' link in overlay wouldn't work on slug pages */
+.blog-ref {
+    float: left;
+    /* Float applied so it is taken out of normal flow of document and doesn't push other elements down */
+    opacity: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+}
+
+.blogcards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: var(--spacing) auto 0 auto;
+    padding: 0 calc(var(--spacing)/2);
+}
+
+.container .btn {
+    display: block;
+    max-width: fit-content;
+    border-color: #000;
+}
+
+.page-button {
+    display: flex;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-right: var(--spacing);
+    box-shadow: 0 0 10px #e6e6e6;
+    width: 40px;
+    height: 40px;
+    transition: all .2s;
+}
+
+.active {
+    background-color: #000;
+    color: #FFF;
+}
+
+.page-button:not(.active):hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+ 
+.container .btn:hover {
+    background-color: #000;
+    color: #FFF;
+}

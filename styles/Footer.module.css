@@ -1,0 +1,28 @@
+.container {
+    background-color: #17181C;
+    color: #fff;
+    padding: var(--spacing);
+}
+
+.contact-info-box {
+    max-width: fit-content;
+}
+
+.centre {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+}
+
+.socials * {
+    cursor: pointer;
+}

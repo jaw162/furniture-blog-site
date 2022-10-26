@@ -1,0 +1,28 @@
+.not-found-hero {
+    height: 100vh;
+    color: #FFF;
+    background-color: #000;
+    font-size: 1.5rem;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.text {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+.text p {
+    margin: 1.5rem auto;
+    width: fit-content;
+}

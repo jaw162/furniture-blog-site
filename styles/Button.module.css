@@ -1,0 +1,27 @@
+.btn {
+    position: relative;
+    text-align: center;
+    margin-top: var(--spacing);
+    background-color: transparent;
+    border: 2px solid #FFF;
+    font-weight: 400;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+.btn:active {
+    background-color: #FFF;
+    z-index: 4;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    z-index: 4;
+    color: #000;
+}

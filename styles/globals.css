@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Quarto Black";
+  src: url('/fonts/Quarto-Black.ttf');
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url('/fonts/Avenir.otf');
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url('/fonts/Avenir-LT.ttf');
+}
+
+:root {
+  font-size: 16px;
+}
+
+[data-theme='dark'] {
+  z-index: -1;
+  position: relative;
+  --primary-color: white;
+}
+
+[data-theme='light'] {
+  z-index: -1;
+  position: relative;
+  --accent: darkgray;
+  --black: black;
+  --primary-color: white;
+  --spacing: 2rem;
+
+  --secondary-primary: #17181C;
+  --secondary-accent: #E8CEC9; 
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: #000;
+  background: #FFF;
+}
+
+body, #__next {
+  position: relative;
+  z-index: -1;
+}
+
+input, textarea {
+  all: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quarto Black", Arial, sans-serif;
+}
+
+p, a {
+  font-family: "Avenir Light";
+}
+
+input, label, span {
+  font-family: "Avenir";
+}

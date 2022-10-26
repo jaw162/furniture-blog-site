@@ -1,0 +1,83 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--secondary-accent);
+    background-color: var(--secondary-primary);
+}
+
+.form * {
+    z-index: 10;
+    position: relative;
+}
+
+.large-field, 
+.large-field input[name='name'],
+.large-field textarea[name='message'] {
+    width: 100%;
+}
+
+.field {
+    width: 50%;
+}
+
+.padding-right {
+    padding-right: 2rem;
+}
+
+.padding-left {
+    padding-left: 2rem;
+}
+
+.field input[name='email'],
+.field input[name='website'],
+.field input[name='phone'],
+.field input[name='business'] {
+    width: 100%;
+}
+
+.error {
+    position: absolute;
+    margin-top: .4rem;
+    color: #FF8080;
+    font-size: .6rem;
+}
+
+.large-field, .field {
+    position: relative;
+    margin: var(--spacing) 0;
+}
+
+.form input[type='text'] {
+    padding-bottom: .2rem;
+    border-bottom: 2px solid;
+    font-size: 1.2rem;
+    border-color: inherit;
+}
+
+.placeholder {
+    position: absolute;
+    padding: inherit;
+    transform: none;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: transform .08s linear;
+    will-change: transform;
+}
+
+.large-field:focus-within .placeholder,
+.field:focus-within .placeholder {
+    transform: translateY(-100%);
+}
+
+.hide {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.form a {
+    width: 100%;
+}
