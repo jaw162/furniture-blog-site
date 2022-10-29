@@ -34,7 +34,7 @@ export default function Hero({ isHome, blog }) {
         ${menuboxClicked ? 
         styles['overlay-content-show'] :
         ''}`}>
-          <li><Link href='https://github.com/jaw162/blog-frontend'><h2>Github</h2></Link></li>
+          <li><Link href='https://github.com/jaw162/furniture-blog-site'><h2>Github</h2></Link></li>
           <li><Link href={`${isHome ? '#blogs' : '/#blogs'}`}><h2>Blogs</h2></Link></li>
           <li><Link href='#contact'><h2>Contact</h2></Link></li>
         </ul>
