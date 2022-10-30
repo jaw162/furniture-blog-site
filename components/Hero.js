@@ -10,7 +10,6 @@ export default function Hero({ isHome, blog }) {
   const handleOverlay = () => {
     isClicked(!menuboxClicked)
   }
-  const [style, setStyle] = useState({})
   
   return (
     <div className={styles.container}>
