@@ -4,7 +4,7 @@
 
 ### Getting started
 
-There is not much to install or configure with this frontend, as the only package I have used is React-markdown to convert the markdown text to html for the articles. This can either be installed directly or by simply writing
+There is not much to install or configure with this frontend, as the only package I have used is React-markdown to convert the markdown text to HTML for the articles. This can either be installed directly or by simply writing
   
     npm install
     
