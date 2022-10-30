@@ -15,3 +15,5 @@ The first package (cloudinary-upload-provider) simply allows for images to be up
 ### Description
 
 This was a fun project to make that really improved my CSS and flexbox skills in the process, I also learned how to properly implement CSS animations by limiting myself to animating on the composite layer (so only properties like opacity and transform). This is because layout computations are far more expensive, and will result in slow, low FPS animations, so animating properties like height or position was avoided. However the animation for the overlay is unfortunately still a bit slow on mobile, so further research is needed on this issue.
+
+One thing I am also grateful for with this project was that it helped me understand Next.js and Strapi well enough to attempt something a bit more complicated and challenging i.e. the eCommerce project you can find here [Github](https://github.com/jaw162/eCommerce), which was the main aim for this project. However saying that, due to the simple nature of this project it helped me be a bit more creative with CSS and overall I am more pleased with how this website looks than the eCommerce site.
